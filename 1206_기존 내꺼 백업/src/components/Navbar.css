@@ -1,0 +1,56 @@
+.loginBtn {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+.loginBtn span {
+  margin-left: 10px;
+  line-height: 1;
+  font-size: 14px;
+}
+
+h1.mainLogo {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0 40px;
+}
+h1.mainLogo img {
+  display: block;
+  width: 60px;
+  height: 40px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+}
+nav ul.menuList {
+  display: flex;
+}
+nav ul.menuList li {
+  padding: 0 10px;
+}
+
+.search {
+  position: absolute;
+  right: 30px;
+  width: 10vw;
+  margin-top: -50px;
+  white-space: nowrap;
+  border-bottom: 1px solid #000;
+}
+.search .searchIcon {
+  position: relative;
+  top: 0px;
+  font-size: 22px;
+}
+.search input {
+  width: calc(100% - 30px);
+  margin-left: 5px;
+  padding: 5px;
+  font-size: 0.95rem;
+  border: none;
+  outline: none;
+}/*# sourceMappingURL=Navbar.css.map */
